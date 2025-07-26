@@ -23,8 +23,7 @@ modules:
     install:
       - micro
       - starship
-      - policycoreutils
-      - selinux-policy-targeted
+      - policycoreutils-python-utils 
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
